@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Android project - Video 3 in 1 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/selector_pressed_button" android:state_pressed="true"/>
+    <item android:drawable="@drawable/selector_pressed_button" android:state_focused="true"/>
+    <item android:drawable="@drawable/selector_unpressed_button" android:state_pressed="false"/>
+    <item android:drawable="@drawable/selector_unpressed_button" android:state_focused="false"/>
+    <item android:drawable="@drawable/selector_unpressed_button"/>
+
+</selector>

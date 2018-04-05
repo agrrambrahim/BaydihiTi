@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#600737</color>
+    <color name="menuTextcolor">#ffffff</color>
+    <color name="gray" >#595252</color>
+    <color name="grayLight" >#979696</color>
+    <color name="green">#8DCC17</color>
+    <color name="JANE">#A90F2B</color>
+    <color name="white">#ffffff</color>
+    <color name="greenDark">#00a651</color>
+    <color name="colorPrimaryDark">#260216</color>
+    <color name="colorPrimaryDarkLight">#241823</color>
+</resources>
