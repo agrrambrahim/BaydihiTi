@@ -46,7 +46,8 @@ public class AppRater {
         }
 
         // Wait at least n days before opening
-        showRateDialog(mContext, editor);
+        showSmartRateDialog(mContext);
+        //showRateDialog(mContext, editor);
         
         /*
         if (launch_count >= LAUNCHES_UNTIL_PROMPT) {
@@ -62,9 +63,10 @@ public class AppRater {
     public String getPackageName(Context context) {
         return context.getPackageName();
     }
+
     public static void showSmartRateDialog(final Context mcontext){
         
-        final RatingDialog ratingDialog = new RatingDialog.Builder(this)
+        final RatingDialog ratingDialog = new RatingDialog.Builder(mcontext)
                 .threshold(4)
                 .onRatingBarFormSumbit(new RatingDialog.Builder.RatingDialogFormListener() {
                     @Override
